@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(80, 80, 80) ;
+}
+
+.box-main{
+    margin: auto;
+    margin-top: 30vh;
+    width: fit-content;
+    background-color: black;
+    font-family: Tahoma;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+}
+
+
+.select-city{
+    /* all: unset; */
+    -webkit-appearance: none;
+    font-size: 2rem;
+    border: 0;
+    text-align: center;
+    width: 100%;
+    height: 3rem;
+    place-items: center;
+    background-color:rgb(80, 80, 80) ;
+    border-radius: 1rem;
+    color: #fff;
+    outline: 0;
+}
+
+.box-select{
+    text-align: center;
+    place-items: center;
+    display: flex;
+    background-color:rgb(80, 80, 80) ;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+/* .search::placeholder{
+    color: #fff;
+}
+
+.search{
+    width: 100%;
+    all: unset;
+    background-color: rgb(80, 80, 80);
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    color: #fff;
+}
+
+.box-icon-search{
+    cursor: pointer;
+    padding: 0.7rem 0.8rem;
+    background-color: rgb(80, 80, 80);
+    border-radius: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.icon-search{
+    display: grid;
+    place-items: center;
+} */
+
+.content{
+    margin-top: 0.9rem;
+}
+
+.description{
+
+}
+
+.box-weather{
+    display: flex;
+}
